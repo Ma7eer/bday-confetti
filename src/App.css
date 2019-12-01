@@ -7,7 +7,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,4 +20,28 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.App-button {
+  color: white;
+  background-color: #9c4fc9;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.App-button:hover {
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(133, 133, 133, 1);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(133, 133, 133, 1);
+  box-shadow: 2px 2px 5px 0px rgba(133, 133, 133, 1);
+}
+
+.App-button:active {
+  background-color: #8b3eb8;
+  -webkit-box-shadow: 1px 1px 2px 0px rgba(133, 133, 133, 1);
+  -moz-box-shadow: 1px 1px 2px 0px rgba(133, 133, 133, 1);
+  box-shadow: 1px 1px 2px 0px rgba(133, 133, 133, 1);
 }

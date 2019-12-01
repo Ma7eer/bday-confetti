@@ -52,8 +52,8 @@ function App() {
           dragFriction: 0.1,
           duration: 2000,
           stagger: 0,
-          width: "15px",
-          height: "30px",
+          width: "10px",
+          height: "20px",
           colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"]
         }
       : count < 20
@@ -65,8 +65,8 @@ function App() {
           dragFriction: 0.1,
           duration: 2000,
           stagger: 0,
-          width: "15px",
-          height: "30px",
+          width: "10px",
+          height: "20px",
           colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"]
         }
       : count < 30
@@ -78,8 +78,8 @@ function App() {
           dragFriction: 0.1,
           duration: 2000,
           stagger: 0,
-          width: "15px",
-          height: "30px",
+          width: "10px",
+          height: "20px",
           colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"]
         }
       : count < 40
@@ -91,8 +91,8 @@ function App() {
           dragFriction: 0.1,
           duration: 2000,
           stagger: 0,
-          width: "15px",
-          height: "30px",
+          width: "10px",
+          height: "20px",
           colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"]
         }
       : count < 50
@@ -104,8 +104,8 @@ function App() {
           dragFriction: getRandomInt(0.1, 0.6),
           duration: 2000,
           stagger: 0,
-          width: "15px",
-          height: "30px",
+          width: "10px",
+          height: "20px",
           colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"]
         }
       : {
@@ -116,8 +116,8 @@ function App() {
           dragFriction: getRandomInt(0.1, 0.6),
           duration: getRandomInt(1000, 4000),
           stagger: getRandomInt(0, 50),
-          width: "15px",
-          height: "30px",
+          width: "10px",
+          height: "20px",
           colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"]
         };
   };
